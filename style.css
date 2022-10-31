@@ -4,24 +4,24 @@ body {
     color: #333;
     font-family: Lato, sans-serif;
 }
-.aaa {
+.banner-and-question {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
-.aaa img {
+.banner-and-question img {
     width: 100%;
 }
-.aaa .more_inf {
+.banner-and-question .more_inf {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.aaa { text-align: center;
+.banner-and-question { text-align: center;
 }
 }
-.centered-main-page-element {
+.control-panel {
     display: block;
     width: 500px;
     margin: 0 auto 0;
