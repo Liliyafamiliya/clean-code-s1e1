@@ -1,14 +1,14 @@
 /* Basic Style */
 body {
+    margin: 0 auto;
+    width: 500px;
+    display: block;
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
 }
 
 .banner-and-question {
-    width: 500px;
-    margin: 0 auto;
-    display: block;
     text-align: right;
 }
 
@@ -16,22 +16,16 @@ body {
     width: 100%;
 }
 
-.banner-and-question .more_inf {
-    font-family: fantasy, cursive;
-}
-
 @media (max-width: 768px) {
 
-.banner-and-question { 
-    text-align: center;
+    .banner-and-question { 
+        text-align: center;
+    }
+    
 }
 
-}
-
-.control-panel {
-    display: block;
-    width: 500px;
-    margin: 0 auto 0;
+.more_inf {
+    font-family: fantasy, cursive;
 }
 
 .task {
